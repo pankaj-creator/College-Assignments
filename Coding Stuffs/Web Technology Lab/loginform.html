@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Login form with html and javascript with validation</title>
+    <!-- JavaScript -->
+    <script>
+        var attempt = 5; // Variable to count number of attempts.
+
+        function validate() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if (username == "Pankaj" && password == "PV@123") {
+                alert("Login successfully");
+                window.location = "#####"; // Redirecting to other page.
+                return false;
+            }
+            else if (username == "Virat" && password == "PV@123") {
+                alert("Login successfully");
+                window.location = "#####"; // Redirecting to other page.
+                return false;
+            } else {
+                attempt--; // It will count he attempt
+                alert("You have left " + attempt + " attempt;");
+                // Disabling fields after 5 attempts.
+                if (attempt == 0) {
+                    document.getElementById("username").disabled = true;
+                    document.getElementById("password").disabled = true;
+                    document.getElementById("submit").disabled = true;
+                    return false;
+                }
+            }
+        }</script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h2>Login form with html and javascript with validation</h2>
+            <form id="form_id" method="post" name="myform">
+                <label>User Name :</label>
+                <input type="text" name="username" id="username" />
+                <label>Password :</label>
+                <input type="password" name="password" id="password" />
+                <input type="button" value="Login" id="submit" onclick="validate()" />
+            </form>
+            <span><b class="note">Note : </b> It is a demo page, to test login attempts.<br/></span>
+        </div>
+    </div>
+</body>
+
+</html>
