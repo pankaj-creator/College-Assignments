@@ -1,11 +1,9 @@
 <html>
-
 <head>
     <title>Login form with html and javascript with validation</title>
     <!-- JavaScript -->
     <script>
         var attempt = 5; // Variable to count number of attempts.
-
         function validate() {
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
@@ -33,15 +31,16 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" style="position: absolute; display: inline-flex">
         <div class="main">
             <h2>Login form with html and javascript with validation</h2>
             <form id="form_id" method="post" name="myform">
                 <label>User Name :</label>
-                <input type="text" name="username" id="username" />
+                <input type="text" name="username" id="username" /><br>
                 <label>Password :</label>
-                <input type="password" name="password" id="password" />
+                <input type="password" name="password" id="password" /><br>
                 <input type="button" value="Login" id="submit" onclick="validate()" />
+                <input type="button" value="Reset" id="reset" onclick="validate()" />
             </form>
             <span><b class="note">Note : </b> It is a demo page, to test login attempts.<br/></span>
         </div>
