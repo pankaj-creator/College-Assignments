@@ -10,10 +10,10 @@ int main() {
     cout << "Enter the Second number:";
     cin >> num2;
 
-    if (number1 % number2 == 0)
-        cout << "First number" + num1 + "is multiple of second number";
+    if (num1 % num2 == 0)
+        cout << "First number", num1, "is multiple of second number";
     else
-        cout << n << " is not a prime number";
+        cout << "First number", num1, "is not multiple of second number";
 
     return 0;
 }

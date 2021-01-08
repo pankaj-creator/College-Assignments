@@ -1,4 +1,4 @@
-//A Java Program to illustrate Caesar Cipher Technique 
+// A Java Program to illustrate Caesar Cipher Technique 
 class CaesarCipher 
 { 
     // Encrypts text using a shift od s 
