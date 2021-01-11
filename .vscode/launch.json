@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch lab4",
+            "request": "launch",
+            "mainClass": "lab4",
+            "projectName": "College-Assignments_76e0af4"
+        },
+        {
+            "type": "java",
+            "name": "Launch lab3",
+            "request": "launch",
+            "mainClass": "lab3",
+            "projectName": "College-Assignments_76e0af4"
+        },
+        {
+            "type": "java",
+            "name": "Launch lab_3",
+            "request": "launch",
+            "mainClass": "lab_3",
+            "projectName": "College-Assignments_76e0af4"
+        },
+        {
+            "type": "java",
             "name": "Launch ArmstrongNumber",
             "request": "launch",
             "mainClass": "ArmstrongNumber",
