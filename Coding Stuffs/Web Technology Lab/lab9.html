@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>confirm box</title>
+	<script type="text/javascript">
+		function show(){
+			var con=confirm("it is a confirm box");
+			if (con==true) {
+				document.write("user want to continue");
+					}
+					else{
+						document.write("user does not to continue");
+					}
+		}
+	</script>
+</head>
+<body>
+	<center>
+<p>click the following button</p>
+<input type="button" value="click me" onclick="show();"/>
+</center>
+</body>
+</html>
