@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE tutorials SYSTEM "tutorials.dtd">
+<tutorials type="web">
+  <tutorial>	
+    <name>XML tutorial</name>
+    <url>https://www.quackit.com/xml/tutorial</url>
+  </tutorial>	
+  <tutorial>
+    <name>HTML tutorial</name>
+    <url>https://www.quackit.com/html/tutorial</url>
+  </tutorial>
+</tutorials>
