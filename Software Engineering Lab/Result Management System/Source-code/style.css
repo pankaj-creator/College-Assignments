@@ -1,0 +1,195 @@
+*{margin:0;padding:0}
+
+.main_wrapper{
+	width:100%;
+}
+.bg_header{
+	background:#4d924d;
+	border-bottom:5px solid #2b4e2d;
+	
+}
+#header{
+	width:960px;
+	background:#4d924d;
+	padding:25px;
+	margin:0 auto;
+}
+#header h3{
+	font-size:27px;
+	font-weight:bold;
+    font-family:tahoma;	
+}
+
+
+.bg_content{
+	background:#e6d5d5;
+}
+#imgwrap img{
+	width:250px;
+	height:250px;
+	margin:0 auto;
+	display:block;
+	margin-bottom:20px;
+	padding-right:45px;
+}
+#content_wrap{
+	width:960px;
+	margin:0 auto;
+	background:#e6d5d5;
+	padding:25px;
+	overflow:hidden;
+	
+}
+#content_wrap h2 {
+	font-size:bold;
+	font-family:tahoma;
+	margin-bottom:10px;
+	
+}
+
+
+#content1{
+	width:400px;
+	float:left;
+	
+
+}
+#content2{
+	width:400px;
+	float:left;
+	
+	
+}
+
+input[type=text], input[type=password] {
+  width: 70%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display:block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.bg_nav{
+	background:#924646;
+	border-bottom:5px solid #2b4e2d;
+}
+#nav{
+	width:960px;
+	margin:0 auto;
+	height:39px;
+	background:#924646;
+	padding:0 25px;
+	
+	
+	
+}
+#nav ul{
+	list-style-type:none;
+	
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid gray;
+	
+}
+#nav ul li:last-child{
+	border-right:none;
+}
+#nav ul li a{
+	text-decoration:none;
+	display:block;
+	color:white;
+	padding:10px;
+}
+
+#section{
+	width:960px;
+	margin:0 auto;
+	display:block;
+}
+#section img{
+	width:960px;
+    vertical-align:middle;
+}
+.bg_section{
+	background:#e6d5d5;
+}
+
+#dept{
+	list-style-type:square;
+}
+
+#dept li{
+	
+}
+#dept li a{
+	text-decoration:none;
+	padding:5px 5px;
+	margin-bottom:10px;
+	display:block;
+	color:blue;
+}
+
+#lt{
+	list-style-type:circle;
+}
+#lt li{
+	
+}
+#lt li a{
+	text-decoration:none;
+	padding:5px 5px;
+	margin-bottom:10px;
+	display:block;
+	color:blue;
+}
+#footer{
+	width:950px;
+	margin:0 auto;
+	background:#171616;
+	color:#e4dbdb;
+	padding:15px;
+}
+#div1{
+	width:400px;
+}
+.bg_footer{
+	background:#171616;
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+.table_container table,tr,th {
+	border:1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
