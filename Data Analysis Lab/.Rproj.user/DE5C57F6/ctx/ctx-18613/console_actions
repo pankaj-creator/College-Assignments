@@ -1,0 +1,12 @@
+{
+    "type": [
+        0,
+        1,
+        2
+    ],
+    "data": [
+        "> ",
+        "source(\"E:/DA lab/lab-4/lab-4.R\")",
+        "Error in install.packages : Updating loaded packages\nError in install.packages : Updating loaded packages\nError in install.packages : Updating loaded packages\n[1] \"Accuracy = 0.666666666666667\"\n\nRestarting R session...\n\n"
+    ]
+}
