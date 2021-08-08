@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='#'?> 
+<class>
+<student>
+<name> ABC </name>
+<id> 001 </id>
+<branch> IT </branch>
+<Address> Gorakhpur </Address>
+</student>
+<student>
+<name> Ram </name>
+<id> 002 </id>
+<branch> CSE </branch>
+<Address> Gorakhpur </Address>
+</student>
+<student>
+<name> Sohan </name>
+<id> 003 </id>
+<branch> CSE </branch>
+<Address> Gorakhpur </Address>
+</student>
+<student>
+<name> Ajay </name>
+<id> 004 </id>
+<branch> CSE </branch>
+<Address> Basti</Address>
+</student>
